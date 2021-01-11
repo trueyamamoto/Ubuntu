@@ -1,0 +1,21 @@
+How to run FreeRapid Downloader on Ubuntu 18.04
+
+Install JRE
+# apt install openjdk-8-jre
+Do not install default-jre because FRD does not enough work with the latest Java runtime(e.g. java11).
+If the newer JRE was installed, openjdk-8 can be selected by update-alternatives after.
+# update-alternatives --config java
+
+Download FRD binary package for All platforms. 
+https://wordrider.net/freerapid/
+FreeRapid-0.9u4.ZIP
+
+Unzip the package
+
+Run FRD
+# bash frd.sh
+
+Update plugins
+Help > Check for new plugins
+
+Enjoy download
